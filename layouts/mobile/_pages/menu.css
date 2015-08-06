@@ -1,0 +1,14 @@
+#menubox ul {padding:0;margin:0;}
+#menubox li {list-style-type:none;padding:0;margin:0;color:#888;border-bottom:#dfdfdf dotted 1px;background:url('../image/ico_view.gif') right 10px no-repeat;}
+#menubox .m1 a {display:block;color:#000;font-family:gothic;font-size:14px;padding:10px 0 10px 5px;font-weight:bold;}
+#menubox .m2 a {display:block;color:#888;font-family:dotum;font-size:12px;padding:10px 0 10px 15px;}
+#menubox .m3 a {display:block;color:#999;font-family:dotum;font-size:11px;padding:10px 0 10px 25px;}
+#menubox .new {font:normal 10px arial;color:#ff0000;}
+#menubox .num {font:normal 11px arial;color:#c0c0c0;}
+#menubox .selected1 a {font-weight:bold;color:#F81D00;letter-spacing:-1px;}
+#menubox .selected2,#content .snb .selected2 a {color:#F81D00;}
+#menubox .selected3,#content .snb .selected3 a {color:#F81D00;}
+#menubox .admpage {border-bottom:0;border-top:#dfdfdf solid 1px;}
+#menubox .noline {border-bottom:0;}
+#menubox .admpage a {color:#ff0000;}
+#menubox .nomenu {border-bottom:0;background:url(none);}

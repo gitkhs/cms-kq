@@ -1,0 +1,16 @@
+#mcon {padding:40px 0px 10px 0px;}
+
+#mcon .bx-lt {position:absolute; width:318px; border:1px solid #cccccc;}
+#mcon .bx-lt.r1 {height:150px; background-color:#6666ff;}
+#mcon .bx-lt.r2 {margin-top:160px; height:360px; background-color:#922091;}
+#mcon .bx-lt.r2 .lst {margin:50px 0px 0px 0px; padding:0; list-style-type:none;}
+#mcon .bx-md1 {position:absolute; width:150px; height:150px; border:1px solid #cccccc;}
+#mcon .bx-md1.tl {margin-left:328px; background-color:#8abb24;}
+#mcon .bx-md1.tr {margin-left:488px; background-color:#09a3e1;}
+#mcon .bx-md1.bl {margin-left:328px; margin-top:160px; background-color:#00aaa9;}
+#mcon .bx-md1.br {margin-left:488px; margin-top:160px; background-color:#0955e1;}
+#mcon .bx-md2 {position:absolute; width:310px; border:1px solid #cccccc;}
+#mcon .bx-md2.r2 {margin-left:328px; margin-top:320px; height:200px; background-color:#ff3098;}
+#mcon .bx-rt {position:absolute; margin-left:648px; width:310px; border:1px solid #cccccc;}
+#mcon .bx-rt.r1 {height:310px; background-color:#f36523;}
+#mcon .bx-rt.r2 {margin-top:320px; height:200px;}

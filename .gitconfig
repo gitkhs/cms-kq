@@ -1,0 +1,5 @@
+[user]
+	name = gitkhs
+	email = parts1123@naver.com
+[http]
+	sslverify = false

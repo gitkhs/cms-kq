@@ -1,0 +1,37 @@
+body {font-size:12px; font-family:NanumGothic, tahoma;}
+input,select,textarea {font-size:12px;font-family:NanumGothic, tahoma;}
+select {font-size:12px;font-family:dotum;}
+label {cursor:pointer;}
+a {text-decoration:none;color:#000;}
+a:hover {color:#666;}
+.wrap {width:960px;margin:auto;}
+#header {}
+#content {padding:20px 0px 0px 0px;min-height:500px;}
+#footer {margin-top:10px;}
+
+#quickmenu {position:fixed; top:16%;}
+#quickmenu img {max-width:100px;}
+#quick_top {position:fixed; bottom:5%; margin-left:-50px; font-size:24px; opacity:0.3; display:none;}
+
+#loginbar {padding:7px 0px 5px 0px; font-family:dotum; font-size:11px; border-bottom:1px solid #dddddd;}
+#loginbar li {padding:1px 3px 1px 3px;}
+#loginbar a {color:#555555; text-decoration:none;}
+#loginbar .bar {margin-right:3px; font-weight:bold; color:#999999;}
+#loginbar_banner {border-bottom:1px solid #dddddd;}
+#loginbar_banner a {color:#555555; text-decoration:none;}
+#loginbar_banner img {max-width:100%;}
+#loginbar_banner .text-content {position:absolute; top:0; width:100%;}
+#loginbar_banner .text-area {padding:10px 5px 10px 5px;}
+#loginbar_banner .close-bar{font-weight:bold; color:#ffffff; background-color:#333333; opacity:0.6; text-align:right;}
+#fbLogin {float:right; display:none;}
+
+#_modal_bg_ {position:absolute; top:0; left:0; width:100%; background:url('../../files/_etc/images/rgba_0005.png');}
+
+/* 슬라이딩 이미지 레이이아웃 */
+.slider-images .bg {display:none;background-size: cover;background-repeat: no-repeat;}
+.slider-images .bg img {max-width:100%;}
+.slider-images .first {display:block;}
+.slider-images .navi {opacity:0.8;}
+.slider-images .navi ul {margin:0; padding:0; list-style-type:none;}
+.slider-images .navi ul li {float:left; padding:3px; font-size:20px; color:#CCFFFF; cursor:default;}
+.slider-images .navi .on {color:#006666;}

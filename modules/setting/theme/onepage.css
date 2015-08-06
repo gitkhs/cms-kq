@@ -1,0 +1,43 @@
+#view {}
+#view img {max-width:100%;}
+#view .vi-wrap {font-size:1.2em;}
+#view .bx-30, #view .bx-50, #view .bx-70,  #view .bx-mx{line-height:150%;}
+#view .bx-lst {margin:0; padding:0; list-style-type:none;}
+
+#view .admin-bar {padding:5px;}
+
+@media (max-width: 600px){
+	#view .bx-30, #view .bx-50, #view .bx-70, #view .bx-mx {padding:2%; width:96%;}
+	#view .bx-lst li {padding:1%; width:98%;}
+}
+@media (min-width: 600px) and (max-width: 960px){
+	#view .bx-mx {padding:2%; width:96%;}
+	#view .bx-70 {padding:2%; width:66%;}
+	#view .bx-50 {padding:2%; width:46%;}
+	#view .bx-30 {padding:2%; width:26%;}
+	#view .bx-lst li {float:left; padding:1%; width:48%;}
+}
+@media (min-width: 960px) and (max-width: 1400px){
+	#view .vi-wrap {padding:0 8% 0 8%;}
+	#view .bx-mx {padding:2%; width:96%;}
+	#view .bx-70 {padding:2%; width:66%;}
+	#view .bx-50 {padding:2%; width:46%;}
+	#view .bx-30 {padding:2%; width:26%;}
+	#view .bx-lst li {float:left; padding:1%; width:48%;}
+}
+@media (min-width: 1400px){
+	#view .vi-wrap {padding:0 8% 0 8%;}
+	#view .bx-mx {padding:2%; width:96%;}
+	#view .bx-70 {padding:2%; width:66%;}
+	#view .bx-50 {padding:2%; width:46%;}
+	#view .bx-30 {padding:2%; width:26%;}
+	#view .bx-lst li {float:left; padding:1%; width:23%;}
+}
+
+#write {}
+#write .menu {padding:10px;}
+#write .menu select {padding:2px; box-sizing:border-box;}
+#write .editer {padding:10px;}
+#write .editer .CodeMirror {border:1px solid #dddddd; max-width:100%; min-height:400px;}
+#write .sample {padding:10px;}
+#write .sample .CodeMirror {border:1px solid #dddddd; max-width:100%; max-height:160px;}

@@ -1,0 +1,65 @@
+.pagebox01 {padding:20px; text-align:center;}
+
+#menubar {border-bottom:2px solid #aaaaaa;}
+#menubar li {padding:8px 12px 8px 12px;border-top:1px solid #aaaaaa; border-right:1px solid #aaaaaa; background-color:#efefef;}
+#menubar li.f {border-left:1px solid #aaaaaa;}
+#menubar li.on {background-color:#ffffff;}
+#menubar li .sub-box {position:absolute; margin:20px 0px 0px -13px; z-index:999; display:none;}
+#menubar li .sub-box dl {margin:3px 0px 0px 0px; padding:0;}
+#menubar li .sub-box dt {padding:5px 12px 5px 12px; border-right:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; border-left:1px solid #aaaaaa; background-color:#ffffff;}
+
+#member .tbl-line .ln01 {border:none;}
+#member .tbl-line .ln02 {border-top:none;}
+#member .tbl-line .name {cursor:pointer;}
+#member_detail {padding:16px;}
+#member_detail .sbj {font-size:1.2em; font-weight:bold;}
+#member_detail .pt1 {color:#ff0000;}
+#member_detail .pt2 {color:#0000ff;}
+
+#counter .list td {text-align:center;}
+#counter .list .rt {text-align:right;}
+
+#popup .list {padding:5px;width:200px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;vertical-align:top;}
+#popup .list .title {padding:5px;background-color:#dddddd;font-weight:bold;}
+#popup .list .none {padding:10px 5px 5px 5px;color:#999999;}
+#popup .list .tree {margin:0;padding:10px 0 10px 0;}
+#popup .list .tree ul {margin:0;padding:0;}
+#popup .list .tree li {list-style-type:none;background:url('/rb/_core/image/_public/ico_f4.png') left no-repeat;background-position:3px 1px;padding:5px 0 5px 26px;}
+#popup .list .tree .name {position:relative;top:0px;color:#111;padding:2px 0 0 0;}
+#popup .list .tree .name:hover {color:#AECD63;}
+#popup .list .tree .on {background:#AECD63;color:#ffffff;padding:2px;}
+#popup .list .tree .on:hover {color:#ffffff;}
+
+#popup .cont {border-bottom:1px solid #dddddd;vertical-align:top;}
+#popup .cont .title {padding:5px;background-color:#dddddd;font-weight:bold;}
+#popup .cont .title a {color:#ff0000;font-weight:normal;}
+#popup .cont .notice {padding:15px 0 10px 15px;font-size:11px;font-family:dotum;color:#02B6D6;line-height:150%;}
+
+
+#upfile .dir {padding:5px;width:200px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;vertical-align:top;}
+#upfile .dir .title {padding:5px;font-weight:bold;background-color:#dfdfdf;}
+#upfile .dir .tree {margin:0;padding:10px 0 10px 0;}
+#upfile .dir .tree .dir01 {padding:1px 0 1px 0;}
+#upfile .dir .tree .dir01 .alldir {color:#000000;}
+#upfile .dir .tree .dir01 .nowdir {font-weight:bold;color:#33C9FD;}
+#upfile .file {border-bottom:1px solid #dddddd; vertical-align:top;}
+#upfile .file {vertical-align:top;}
+#upfile .file .title {padding:5px;background-color:#dfdfdf;}
+#upfile .file .title .xleft {float:left;}
+#upfile .file .title .xright {float:right;}
+#upfile .file .title .xright a {color:#888;}
+#upfile .file .notice {padding:15px 0 10px 15px;margin:0 0 20px 0;font-size:11px;font-family:dotum;color:#02B6D6;border-bottom:#dfdfdf dashed 1px;line-height:150%;}
+#upfile .file .notice a {color:#ff0000;text-decoration:underline;}
+#upfile .file .hBox {margin:auto;width:500px;height:300px;border:#efefef solid 5px;text-align:right;font-size:11px;font-family:arial;color:#CA2A0A;}
+#upfile .file .edt .view {width:725px;}
+#upfile .file .listtop {background:#dfdfdf;padding:2px 5px 0 5px;height:23px;}
+#upfile .file .listtop img {position:relative;top:2px;}
+#upfile .file .listtop .l {float:left;}
+#upfile .file .listtop .l img {position:relative;top:2px;}
+#upfile .file .listtop .l span {position:relative;top:-2px;font-weight:bold;}
+#upfile .file .listtop .r {float:right;text-align:right;}
+#upfile .file .flst .tc {padding:2px;border-bottom:1px dashed #dddddd;}
+#upfile .file .flst .th {border-bottom:1px solid #dddddd; text-align:center;}
+#upfile .file .pagerbox {padding:16px; text-align:center;}
+#upfile .file .submitbox {text-align:right;}
+#hImg {position:absolute;}

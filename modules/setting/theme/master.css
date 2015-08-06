@@ -1,0 +1,120 @@
+.CodeMirror {border:1px solid #dddddd; max-width:946px; min-height:400px;}
+.toolbar a {color:#aaaaaa;margin:0px 2px 0px 2px;}
+.toolbar .on {color:#16499a;}
+span.dv {padding:0px 5px 0px 5px;font-weight:bold;}
+
+#menubar {}
+#menubar li {padding:8px 12px 8px 12px;border-top:1px solid #aaaaaa; border-right:1px solid #aaaaaa; background-color:#efefef;}
+#menubar li.f {border-left:1px solid #aaaaaa;}
+#menubar li.on {background-color:#ffffff;}
+#menubar li .sub-box {position:absolute; margin:20px 0px 0px -13px; z-index:999; display:none;}
+#menubar li .sub-box dl {margin:2px 0px 0px 0px; padding:0;}
+#menubar li .sub-box dt {padding:5px 12px 5px 12px; border-right:1px solid #aaaaaa; border-bottom:1px solid #aaaaaa; border-left:1px solid #aaaaaa; background-color:#ffffff;}
+
+#setting {}
+
+#menu {}
+#menu .cate {padding:5px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;vertical-align:top;}
+#menu .cate select {width:100%;}
+#menu .cate .tree img {vertical-align:top;}
+#menu .cate .tree .on {background: #AECD63;color: #ffffff;padding: 2px;}
+#menu .cate .savebtn {text-align:right;}
+#menu .cate .savebtn img, #menu .cate input[type="image"] {position:relative;top:27px;cursor:pointer;}
+#menu .cate .tt1 {font-weight: bold;color: #222;height: 19px;background-position: 5px 7px;padding:8px 0 0 0px;margin: 5px 0 0 0;border-bottom: #efefef solid 1px;}
+#menu .cate ul {margin:0;padding:10px 0 0 0;list-style-type: none;}
+#menu .cate ul li {padding: 3px 0 3px 7px;color: #333;}
+#menu .cate ul li input {display:none;}
+#menu .cate li .drag {position: relative;top: 2px;cursor: move;}
+
+#menu .cont {border-bottom:1px solid #dddddd;}
+#menu .cont .title {background: #dfdfdf;height: 25px;}
+#menu .cont .title .xleft {float: left;padding: 6px 0 0 23px;font-weight: bold;}
+#menu .cont .title .xright{float: right;padding: 7px 7px 0 0;}
+#menu .cont .title .xright a {color:#ff0000;}
+#menu .cont .notice{padding: 15px 0 10px 15px;font-size: 11px;font-family: dotum;color: #02B6D6;line-height: 150%;}
+
+/* 게시판 */
+#bbs {}
+#bbs .list {padding:5px;width:200px;border-right:1px solid #dddddd;border-bottom:1px solid #dddddd;vertical-align:top;}
+#bbs .list select {width:100%;}
+#bbs .list .tree {margin:0;padding:10px 0 10px 0;}
+#bbs .list .tree ul {margin:0;padding:0;}
+#bbs .list .tree li {width:194px;cursor:move;list-style-type:none;background:url('/rb/_core/image/_public/ico_folder_01.gif') left no-repeat;background-position:5px 5px;padding:3px 0 5px 24px;border:transparent solid 1px;_border:#ffffff solid 1px;letter-spacing:-1px;}
+#bbs .list .tree li:hover {border:#ebebeb solid 1px;background:url('/rb/_core/image/_public/ico_folder_01.gif') left no-repeat #f9f9f9;background-position:5px 5px;}
+#bbs .list .tree .usecat {background:url('/rb/_core/image/_public/ico_folder_02.gif') left no-repeat;background-position:5px 5px;}
+#bbs .list .tree .usecat:hover {background:url('/rb/_core/image/_public/ico_folder_02.gif') left no-repeat #f9f9f9;background-position:5px 5px;}
+#bbs .list .tree input {display:none;}
+#bbs .list .tree .name {position:relative;top:2px;color:#111;padding:2px 0 0 0;}
+#bbs .list .tree .id {font:normal 11px arial;color:#999;padding:0 0 0 2px;}
+#bbs .list .tree .id:hover {}
+#bbs .list .tree .name:hover {color:#AECD63;}
+#bbs .list .tree .on {background:#AECD63;color:#ffffff;padding:2px;}
+#bbs .list .tree .on:hover {color:#ffffff;}
+#bbs .list .none {height:15px;margin:15px 0 0 0;padding:3px 0 0 25px;background:url('/rb/_core/image/_public/ico_notice.gif') left no-repeat;background-position:4px 2px;font-family:dotum;font-size:13px;color:#c0c0c0;}
+
+#bbs .cont {border-bottom:1px solid #dddddd;}
+#bbs .cont .title {margin-bottom:1px;background:#dfdfdf;height:25px;}
+#bbs .cont .title .xleft {float:left;padding:6px 0 0 23px;font-weight:bold;}
+#bbs .cont .title .xright {float:right;padding:7px 7px 0 0;}
+#bbs .cont .title .xright a {color:#ff0000;}
+#bbs .cont .sfont1 {font:normal 11px dotum;color:#c0c0c0;}
+#bbs .cont .notice {padding:15px 0 10px 15px;margin:0 0 20px 0;font-size:11px;font-family:dotum;color:#02B6D6;border-bottom:#dfdfdf dashed 1px;line-height:150%;}
+#bbs .cont .addinfo {list-style-type:none;margin:0;padding:0;}
+
+/* 댓글 */
+#comment {}
+
+/* 회원가입*/
+#member .tbl-form input[type=text] {width:98%;}
+#member .tbl-form .optlst {margin:0;padding:0;list-style-type:none;}
+#member .tbl-form .optlst label {width:95px;display:inline-block;}
+#member .tbl-form .optlst li {float:left;width:255px;}
+
+/* 이미지 업로드 */
+#image {border:1px solid #aaaaaa;}
+#image .dir {padding:5px;width:200px;border-right:1px solid #dddddd;vertical-align:top;}
+#image .dir .title {padding:5px;font-weight:bold;background-color:#dfdfdf;}
+#image .dir .tree {margin:0;padding:10px 0 10px 0;}
+#image .dir .tree .dir01 {padding:1px 0 1px 0;}
+#image .dir .tree .dir01 .alldir {color:#000000;}
+#image .dir .tree .dir01 .nowdir {font-weight:bold;color:#33C9FD;}
+
+#image .file {vertical-align:top;}
+#image .file .title {padding:5px;background-color:#dfdfdf;}
+#image .file .title .xleft {float:left;}
+#image .file .title .xright {float:right;}
+#image .file .title .xright a {color:#888;}
+#image .file .notice {padding:15px 0 10px 15px;margin:0 0 20px 0;font-size:11px;font-family:dotum;color:#02B6D6;border-bottom:#dfdfdf dashed 1px;line-height:150%;}
+#image .file .notice a {color:#ff0000;text-decoration:underline;}
+#image .file .hBox {margin:auto;width:500px;height:300px;border:#efefef solid 5px;text-align:right;font-size:11px;font-family:arial;color:#CA2A0A;}
+#image .file .edt .view {width:725px;}
+#image .file .listtop {background:#dfdfdf;padding:2px 5px 0 5px;height:23px;}
+#image .file .listtop img {position:relative;top:2px;}
+#image .file .listtop .l {float:left;}
+#image .file .listtop .l img {position:relative;top:2px;}
+#image .file .listtop .l span {position:relative;top:-2px;font-weight:bold;}
+#image .file .listtop .r {float:right;text-align:right;}
+#image .file .flst .tc {padding:2px;border-bottom:1px dashed #dddddd;}
+#image .file .flst .th {border-bottom:1px solid #dddddd; text-align:center;}
+#image .file .pagerbox {padding:16px; text-align:center;}
+#image .file .submitbox {text-align:right;}
+#hImg {position:absolute;}
+
+#makecab .hd {padding:12px 5px 8px 5px;font-weight:bold;font-size:1.5em;}
+#makecab .lst {margin:0;padding:0;list-style-type:none;}
+#makecab .lst li{float:left;margin-right:10px;padding:5px;border:1px solid #dddddd;}
+
+#sqlmanager .edtbox {float:left;width:600px;}
+#sqlmanager .edtbox textarea {width:100%;height:100px;}
+#sqlmanager .tbllst {float:right;padding:0px 5px 0px 5px;width:300px;height:100px;overflow-y:auto;}
+#sqlmanager .tbllst .lst {margin:0;padding:0;list-style-type:none;}
+#sqlmanager .tbllst .lst li {margin-bottom:2px;padding:1px 5px 1px 5px;border:1px solid #efefef;}
+#sqlmanager .result {padding:5px;width:930px;overflow:auto;}
+#sqlmanager .result .grid {border-spacing:0px;border-collapse:collapse;border-top:1px solid #aaaaaa;border-left:1px solid #aaaaaa;}
+#sqlmanager .result .grid .th {padding:3px 5px 3px 5px;text-align:center;background-color:#e2e2e2;;border-bottom:1px solid #aaaaaa;border-right:1px solid #aaaaaa;}
+#sqlmanager .result .grid .td {padding:3px 5px 3px 5px;border-bottom:1px solid #aaaaaa;border-right:1px solid #aaaaaa;}
+#sqlmanager .result .grid tr:hover {background-color:#b4edf7;}
+#sqlmanager .result .grid .env {background-color:#f5f5f5;}
+
+#vi_source, #vi_source .CodeMirror {width:700px;}
+#vi_style, #vi_style .CodeMirror {width:233px;}

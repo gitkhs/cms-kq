@@ -1,0 +1,16 @@
+#login {width:100%; height:100%;}
+
+#login .loginbox {position:absolute; left:10%; top:60%; width:70%; margin:auto; background:url('../../../../../../files/_etc/images/rgba_0005.png'); border:#dfdfdf solid 5px; padding:15px;}
+#login .loginbox .xdiv {padding:4px 0 4px 0;}
+#login .loginbox input[type=text], #login .loginbox input[type=password]{width:98%;height:25px;font:bold 18px arial;color:#888888; border:1px solid #dfdfdf;}
+
+#login .loginbox .xl {float:left;position:relative;left:-5px;}
+#login .loginbox .xr {float:right;}
+#login .loginbox .xfont {color:#999999;}
+#login .loginbox .xfont input {position:relative;top:2px;}
+
+#login .loginbox .guest {margin-top:10px; color:#fa6800; font-weight:bold; display:inline-block;}
+#login .loginbox .btnsz01 {font-size:1.2em;}
+
+#snsBar {text-align:right;}
+#snsBar .facebook {padding:5px 12px 5px 12px; background-color:#4c69ba; color:#ffffff; font-weight:bold;}

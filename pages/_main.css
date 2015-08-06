@@ -1,0 +1,27 @@
+/* pages public css */
+#stdpage_view .admin-box{margin-top:5px; text-align:right;}
+#stdpage_view .content{padding-top:20px;}
+#stdpage_view .content img {max-width:100%;}
+#stdpage_view .mobile{padding:20px 5px 20px 5px;}
+
+#stdpage_view .info {margin-top:12px;}
+#stdpage_view .info .xright {float:right;}
+#stdpage_view .info .xright ul {padding:0;margin:0;}
+#stdpage_view .info .xright li {list-style-type:none;float:left;}
+#stdpage_view .info .xright .g {padding:0 10px 0 0;}
+#stdpage_view .info .xright .g img {position:relative;top:3px;right:3px;}
+#stdpage_view .info .xright .g a {font-size:11px;font-family:dotum;color:#666;}
+#stdpage_view .info .xright .g a:hover {text-decoration:underline;}
+#stdpage_view .info .xright div {position:absolute;display:none;}
+#stdpage_view .info .xright div ul {position:relative;top:17px;width:79px;border:#dfdfdf solid 1px;background:#ffffff;padding:1px;}
+#stdpage_view .info .xright div li {float:none;display:block;padding:3px 0 3px 3px;color:#333;font-size:11px;cursor:pointer;}
+#stdpage_view .info .xright div li:hover {background:#ECF0F6;}
+
+#stdpage_perm ul {padding:0px 0px 0px 30px;}
+#stdpage_perm li {padding:2px 0px 8px 0px;}
+
+#file_list {padding:10px; margin-top:5px; text-align:right; border:1px solid #dddddd;}
+#file_list ul {margin:0; padding:0; list-style-type:none;}
+#file_list li {float:left; margin:3px; padding:5px; background-color:#eeeeee;font-family: dotum;}
+
+#map-api {padding:15px 0px 15px 0px;}

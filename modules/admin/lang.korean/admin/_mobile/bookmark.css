@@ -1,0 +1,12 @@
+
+
+#catebody {margin:0 0 30px 0;padding:20px 0 30px 0;}
+#category {}
+#category .title {height:19px;background:url('../../../../../_core/image/tree/default/top.gif') left no-repeat #dfdfdf;background-position:4px 3px;padding:6px 0 0 23px;font-weight:bold;}
+
+#category .tree {margin:0;padding:10px 0 10px 0;}
+#category .tree ul {margin:0;padding:0;}
+#category .tree li {list-style-type:none;background:url('../../../../../_core/image/_public/ico_folder_01.gif') left no-repeat;background-position:5px 4px;padding:3px 0 0 24px;border:transparent solid 1px;_border:#ffffff solid 1px;letter-spacing:-1px;}
+#category .move {cursor:move;}
+#category .move span {position:relative;top:-2px;}
+

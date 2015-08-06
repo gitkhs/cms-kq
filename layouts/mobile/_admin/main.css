@@ -1,0 +1,25 @@
+#subcontent {}
+#subcontent .smenu {border-bottom:#dfdfdf solid 1px;padding:0 0 10px 0;margin-bottom:20px;}
+#subcontent .smenu a {display:inline-block;color:#ffffff;background:#999999;padding:5px 8px 5px 8px;margin:0 1px 0 1px;border-radius:2px 2px 2px 2px;}
+#subcontent .smenu .on {background:#FA1D00;}
+
+#subcontent .guide {line-height:160%;letter-spacing:-1px;border-bottom:#dfdfdf dotted 2px;padding:0 0 20px 0;margin:0 0 20px 0;}
+#subcontent .guide .emp {color:#ff0000;}
+#subcontent .more {line-height:160%;letter-spacing:-1px;padding:20px 0 20px 0;color:#666;}
+
+#subcontent .t1 {padding:8px 0 8px 0;color:#666666;width:80px;line-height:130%;}
+#subcontent .t2 {padding:0 5px 0 5px;text-align:center;}
+#subcontent .t3 {}
+#subcontent .t3 .input {width:190px;}
+#subcontent .t3 .post {width:190px;}
+#subcontent .t3 .file {width:190px;border:#dfdfdf solid 1px;background:#ffffff;padding:2px;}
+#subcontent .t3 .sf {width:25px;}
+#subcontent .t3 .sf1 {width:70px;}
+#subcontent .t3 .select1 {width:194px;height:23px;margin-left:1px;}
+#subcontent .t3 a {text-decoration:underline;font-size:11px;font-family:dotum;color:#666666;}
+#subcontent .t4 {padding:3px 0 0 30px;}
+#subcontent .help {line-height:160%;letter-spacing:-1px;color:#666;}
+#subcontent .small {line-height:160%;letter-spacing:-1px;color:#666;font-size:11px;}
+#subcontent textarea {padding:5px;margin:0;overflow-x:hidden;overflow-y:auto;line-height:150%;color:#000000;font-size:9pt;text-align:left;}
+#subcontent label input {position:relative;top:4px;}
+

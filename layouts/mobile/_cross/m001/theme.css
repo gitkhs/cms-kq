@@ -1,0 +1,17 @@
+#header {padding:10px; border-bottom:solid 2px #aaaaaa; background:url(../../../../files/_etc/images/dsk_topmenu_bar.png); background-size:contain;}
+#header .title {float:left; font-size:16px; font-weight:bold;}
+#header .loginbar {float:right; font-size:20px;}
+#header .loginbar a {color:#ffffff;}
+#header .loginbar span {margin-left:10px;}
+
+#header .logo {float:left;padding-left:8px;}
+#header .logo h1 {inline-block;margin:12px 0 0 0;padding:0;}
+#header .logo h1 a {font-size:23px;color:#ffffff;letter-spacing:-1px;text-shadow:-2px -1px #000;}
+#header .logo .imglogo a {display:inline-block;margin:10px 0 0 0;padding:0;}
+#header .logo .imglogo a img {height:28px;}
+#header .tool {float:right;padding-right:8px;}
+#header .tool img {margin:7px 0 0 3px;}
+
+
+#content {padding:0; min-height:262px; background:#ffffff;}
+#content .subject {padding:8px; font-size:1.3em; color: #333333; font-weight:bold; font-family:Malgun Gothic; border-bottom:1px solid #eaeaea; background-color:#efefef;}

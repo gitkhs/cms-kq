@@ -1,0 +1,72 @@
+#deskbox {}
+#deskbox .tt {font-weight:bold;color:#538ACD;padding:0 0 20px 0;margin:0;}
+#deskbox .tt img {position:relative;top:2px;}
+#deskbox .tt .height {font-weight:normal;font-size:11px;font-family:dotum;color:#c0c0c0;}
+#deskbox .tt .height .input {color:#c0c0c0;}
+#deskbox .posrel {position:relative;border:#dfdfdf dashed 1px;}
+#deskbox .result {color:#ff0000;padding:0 0 0 10px;display:none;}
+
+#admdesk {width:800px;height:720px;}
+#admdesk .aside {float:left;width:530px;}
+#admdesk .aside .desk {background:#f7f7f7;border:#cccccc solid 5px;padding:15px 15px 0 15px;margin:5px 0 20px 0;border-radius:7px 7px 7px 7px;}
+#admdesk .aside .desk .t1 {font-weight:bold;color:#538ACD;padding:0 0 10px 0;margin:0;border-bottom:#cccccc solid 1px;}
+#admdesk .aside .desk .t1 s {text-decoration:none;font-weight:normal;font-size:11px;color:#c0c0c0;}
+#admdesk .aside .desk .t1 i {font-style:normal;font-weight:normal;font-size:11px;font-family:dotum;color:#666666;}
+#admdesk .aside .desk table {width:100%;}
+#admdesk .aside .desk th {width:43px;padding:5px 0 5px 0;text-align:center;font-weight:normal;font-size:11px;font-family:dotum;color:#999999;letter-spacing:-1px;border-bottom:#cccccc solid 1px;}
+#admdesk .aside .desk td {text-align:center;padding:15px 0 15px 0;font-family:arial;font-weight:bold;font-size:14px;color:#CA6632;letter-spacing:-1px;}
+#admdesk .aside .desk td s {display:block;padding:20px 0 0 0;text-decoration:none;font-weight:normal;font-size:11px;color:#999999;}
+#admdesk .aside .desk .v1 {width:144px;border-right:#dfdfdf solid 1px;}
+#admdesk .aside .desk .v1 a {font-size:33px;color:#CC3467;}
+#admdesk .aside .desk .v1 s {position:relative;top:-12px;font-size:13px;}
+#admdesk .aside .desk .v1 span {text-align:left;margin-top:35px;}
+
+#admdesk .aside .counter {}
+#admdesk .aside .counter table {width:100%;_width:99.6%;margin:0 0 40px 0;background:#f5f5f5;border-spacing:1px;border-collapse:separate;}
+#admdesk .aside .counter table .sbjtr {}
+#admdesk .aside .counter table .sbjtr th {text-align:center;height:25px;border-bottom:#cccccc solid 1px;background:#efefef;font-size:11px;font-family:dotum;color:#666;}
+#admdesk .aside .counter table .looptr {}
+#admdesk .aside .counter table .looptr td {padding:3px 0 2px 0;}
+#admdesk .aside .counter table .sumtr {}
+#admdesk .aside .counter table .sumtr td {height:45px;border-top:#cccccc solid 1px;border-bottom:#cccccc solid 1px;}
+#admdesk .aside .counter table .datetd {text-align:center;background:#efefef;font-size:11px;color:#999999;}
+#admdesk .aside .counter table .sumtd1 {text-align:center;background:#ffffff;font-size:11px;color:#666666;}
+#admdesk .aside .counter table .sumtd2 {text-align:center;background:#efefef;font-size:11px;color:#497DD0;}
+
+
+#admdesk .bside {float:right;width:250px;}
+#admdesk .bside .sysinfo {margin-bottom:17px;}
+#admdesk .bside .sysinfo table {margin:10px 0 0 0;}
+#admdesk .bside .sysinfo td {padding:6px 0 6px 0;font-size:11px;font-family:dotum;letter-spacing:-1px;}
+#admdesk .bside .sysinfo .td1 {vertical-align:top;background:url('./image/dot_01.gif') top 9px left 1px no-repeat;padding:5px 0 5px 10px;width:70px;}
+#admdesk .bside .sysinfo .td2 {padding-left:10px;color:#999;line-height:150%;}
+#admdesk .bside .version {margin:20px auto;width:179px;height:71px;background:url('./image/bg_rv.gif') right no-repeat;}
+#admdesk .bside .version i {float:left;text-align:center;font-style:normal;font-weight:bold;color:#333333;font-size:45px;font-family:arial;display:inline-block;padding-top:14px;}
+#admdesk .bside .version .gap1 {width:50px;}
+#admdesk .bside .version .gap2 {width:77px;}
+#admdesk .bside .version .gap3 {width:52px;}
+#admdesk .bside .newcheck {margin-bottom:25px;}
+#admdesk .bside .newcheck .existsnew {background:#dfdfdf;padding:10px;line-height:150%;letter-spacing:-1px;font-size:11px;font-family:dotum;font-weight:bold;color:#FF6666;border-radius:5px 5px 5px 5px;}
+#admdesk .bside .newcheck .existsnew span {display:block;font-weight:normal;color:#999999;}
+#admdesk .bside .newcheck .existsnew a {display:inline-block;padding:3px 10px 2px 10px;margin:0 2px 0 2px;background:#999999;border-radius:6px 6px 6px 6px;}
+#admdesk .bside .newcheck .existsnew .up {background:#23779F;}
+#admdesk .bside .newcheck .existsnew a i {font-style:normal;font-weight:normal;font-size:11px;font-family:dotum;color:#ffffff;}
+#admdesk .bside .newcheck .existsnew div {text-align:center;padding:10px 0 5px 0;margin-top:10px;border-top:#ffffff solid 1px;}
+#admdesk .bside .newcheck .existsnone {background:#dfdfdf;padding:10px;line-height:150%;letter-spacing:-1px;font-size:11px;font-family:dotum;font-weight:normal;color:#999999;border-radius:5px 5px 5px 5px;}
+#admdesk .bside .tree {margin:0;padding:12px 0 0 0;}
+#admdesk .bside .tree .tbox {padding:0 0 10px 0;margin:0 0 10px 0;border-bottom:#c0c0c0 dotted 1px;}
+#admdesk .bside .tree table {width:100%;}
+#admdesk .bside .tree td {}
+#admdesk .bside .tree .t0 {width:15px;}
+#admdesk .bside .tree .t1 {color:#666666;}
+#admdesk .bside .tree .t1 span {font-family:arial;color:#999;font-size:11px;}
+#admdesk .bside .tree .t1 .on {color:#ff0000;}
+#admdesk .bside .tree .t2 {text-align:right;}
+#admdesk .bside .tree .tt {}
+#admdesk .bside .tree .tt td {color:#999999;font-weight:normal;font-size:11px;font-family:dotum;letter-spacing:-1px;padding:0 0 5px 0;}
+#admdesk .bside .tree .tt img {margin-bottom:-1px;}
+#admdesk .stitle {border-bottom:#cccccc solid 1px;padding:0 0 7px 2px;}
+#admdesk .stitle .t1 {float:left;background:url('./image/dot_02.gif') left no-repeat;padding:3px 0 0 20px;}
+#admdesk .stitle .t1 span {font-weight:bold;color:#666666;}
+#admdesk .stitle .t2 {float:right;}
+#admdesk .stitle .t2 a {position:relative;top:3px;font-size:11px;font-family:dotum;color:#c0c0c0;}

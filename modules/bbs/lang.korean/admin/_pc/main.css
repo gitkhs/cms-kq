@@ -1,0 +1,48 @@
+#bbslist {}
+
+#bbslist .sbox {padding:0 0 15px 0;}
+#bbslist .sbox .btngray {margin:0;height:17px;}
+#bbslist .sbox .btnblue {margin:0;height:17px;}
+#bbslist .sbox .account {width:192px;}
+#bbslist .sbox .input {margin:0 0 0 10px;height:14px;}
+#bbslist .sbox .input:focus {border:#dfdfdf solid 1px;}
+#bbslist .sbox div {padding:10px 0 0 0;}
+#bbslist .sbox .add {position:relative;top:2px;left:235px;display:inline-block;font-size:11px;font-family:dotum;font-weight:bold;color:#689A65;letter-spacing:-1px;}
+#bbslist .sbox .add img {margin:0 3px -3px 0;}
+
+#bbslist .info {height:28px;}
+#bbslist .info .article {float:left;font-size:11px;font-family:gothic,dotum;color:#c0c0c0;padding:5px 0 0 5px;}
+#bbslist .info .article a {position:relative;top:3px;left:3px;}
+#bbslist .info .category {float:right;}
+#bbslist .info .category select .sline {color:#c0c0c0;}
+
+#bbslist .bbsbody {}
+#bbslist .bbsbody table {width:100%;_width:99.6%;border-spacing:0px;border-collapse:collapse;}
+#bbslist .bbsbody table caption {display:none;}
+#bbslist .bbsbody thead th {height:28px;border-top:#D2D2D2 solid 1px;border-bottom:#D2D2D2 solid 1px;background:url('../../../../../_core/image/_public/bg_list_tt.jpg');font-size:11px;font-family:dotum;color:#787878;letter-spacing:-1px;}
+#bbslist .bbsbody thead .side1 {border-left:#D2D2D2 solid 1px;}
+#bbslist .bbsbody thead .side2 {border-right:#D2D2D2 solid 1px;}
+#bbslist .bbsbody tbody td {padding:5px 0 5px 0;text-align:center;font-family:dotum;font-size:11px;color:#888888;border-bottom:#E6E6E6 solid 1px;letter-spacing:-1px;}
+#bbslist .bbsbody tbody tr:hover td {background:#efefef;}
+#bbslist .bbsbody tbody tr:hover .sbj input {border:#cccccc solid 1px;background:#ffffff;}
+
+#bbslist .bbsbody tbody .bid a {color:#9965C9;}
+#bbslist .bbsbody tbody .lst u {text-decoration:none;position:relative;top:-2px;font-family:arial;font-size:10px;color:#ff0000;}
+#bbslist .bbsbody tbody .sbj {text-align:left;padding-left:10px;line-height:130%;}
+#bbslist .bbsbody tbody .sbj input {width:100%;height:15px;padding:2px 0 1px 2px;border:#ffffff solid 1px;}
+#bbslist .bbsbody tbody .sbj input:focus {border:#cccccc solid 1px;background:#ffffff;}
+#bbslist .bbsbody tbody .lay span {text-align:left;}
+#bbslist .bbsbody tbody .cat {color:#c0c0c0;}
+#bbslist .bbsbody tbody .cat span {font-weight:bold;color:#FE6665;}
+#bbslist .bbsbody tbody .lay {color:#c0c0c0;}
+#bbslist .bbsbody tbody .lay i {font-style:normal;font-weight:bold;color:#FE6665;}
+#bbslist .bbsbody tbody .lay span {text-align:left;}
+#bbslist .bbsbody tbody .perm {}
+#bbslist .bbsbody tbody .perm span {text-align:left;}
+#bbslist .bbsbody tbody .mng {}
+#bbslist .bbsbody tbody .mng a {text-decoration:underline;color:#666666;display:inline-block;padding:0 2px 0 2px;}
+#bbslist .bbsbody tbody .mng .del {color:#999999;}
+#bbslist .bbsbody tbody .tooltip span {padding:8px 8px 5px 10px;line-height:170%;}
+#bbslist .bbsbody tbody .none {padding:10px 0 10px 0;}
+#bbslist .bbsbody tbody tr:hover .none {background:#ffffff;} 
+#bbslist .bbsbody .pagebox01 {padding:15px 0 20px 0;}

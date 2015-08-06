@@ -1,0 +1,7 @@
+#paperbox {padding:10px;}
+#paperbox .rcvmbr {margin-bottom:8px; padding-bottom:2px; border-bottom:1px solid #dddddd;}
+#paperbox .not-rcvmbr {padding-top:50px; text-align:center; font-size:1.2em; font-weight:bold; color:#777777;}
+#paperbox textarea {width:98%; border:none;}
+
+#paperbox .paper-list {}
+#paperbox .paper-list .gobox {padding-bottom:8px;}

@@ -1,0 +1,125 @@
+/* list */
+#bbslist {margin:0;padding:0;}
+#bbslist .gallery ul {margin:0; padding:0; list-style-type:none;}
+#bbslist .gallery ul li {padding:10px;}
+#bbslist .gallery ul li .box {padding:12px; border:1px solid #aaaaaa; border-radius:3px; background-color:#eeeeee;}
+#bbslist .gallery ul li .img {height:200px; border:1px solid #aaaaaa;}
+#bbslist .gallery ul li .sbj {margin-top:8px;}
+#bbslist .gallery ul li .sbj.notify {color:#008287;}
+#bbslist .gallery ul li .sbj.now {color:#fa6800;}
+#bbslist .gallery .sbj .dep {padding:0px 1px 0px 1px; color:#fa6800;}
+#bbslist .gallery .sbj .mob {padding:0px 1px 0px 1px; color:#4390df;}
+#bbslist .gallery .sbj .cat {font-weight:bold;}
+#bbslist .gallery .sbj .pic {padding:0px 1px 0px 1px; color:#4390df;}
+#bbslist .gallery .sbj .file {padding:0px 1px 0px 1px; color:#4390df;}
+#bbslist .gallery .sbj .lock {padding:0px 1px 0px 1px; color:#4390df;}
+#bbslist .gallery .sbj .new {padding:0px 1px 0px 1px; font-size:9px; color:#fa6800;}
+#bbslist .tbl-line {}
+#bbslist .tbl-line td {padding:5px 10px 5px 10px;}
+#bbslist .tbl-line .noti {background-color:#eaeaea;}
+#bbslist .tbl-line .sbj {padding:5px 0px 5px 0px; font-weight:bold;}
+#bbslist .tbl-line .sbj .cat {font-size:11px; font-family:dotum; font-weight:normal;}
+#bbslist .tbl-line .info {text-align:right; font-size:11px; font-family:dotum;}
+#bbslist .tbl-line .info .pic,#bbslist .tbl-line .info .file,#bbslist .tbl-line .info .lock {color:#4390df;}
+#bbslist .tbl-line .now,#bbslist .tbl-line .now a {color:#fa6800;}
+#bbslist .title {padding:5px 10px 5px 10px;}
+#bbslist .title .article {float:left;padding:5px 0 0 0;}
+#bbslist .title .name {font:bold 12px gulim;color:#FF5E0F;}
+#bbslist .title .stat {font:normal 11px dotum;color:#c0c0c0;padding:0 0 0 5px;}
+#bbslist .title .category {float:right;}
+#bbslist .title .category select {height:22px;}
+#bbslist .title .category select .sline {color:#c0c0c0;}
+#bbslist .dselected {background:#f9f9f9;}
+#bbslist .none {border-bottom:#dfdfdf solid 1px;padding:20px 0 20px 0;text-align:center;letter-spacing:-1px;font:normal 12px gulim;color:#c0c0c0;}
+#bbslist .page {padding:10px;text-align:center;}
+#bbslist .page .selected {display:inline-block;padding:2px 6px 2px 6px;margin:0 3px 0 3px;border:#dfdfdf solid 1px;font-family:arial;font-size:15px;font-weight:bold;color:#01939c;}
+#bbslist .page .notselected {display:inline-block;padding:2px 6px 2px 6px;margin:0 3px 0 3px;border:#dfdfdf solid 1px;text-decoration:none;font-family:arial;font-size:15px;font-weight:bold;color:#777;}
+#bbslist .page .split {display:none;}
+#bbslist .phidden {display:none;}
+#bbslist .ctrl {padding-bottom:10px;}
+#bbslist .page img {padding:4px 6px 4px 6px;margin:0 3px 0 3px;border:#dfdfdf solid 1px;position:relative;top:7px;}
+#bbslist .btnbox {padding:10px;}
+#bbslist .btnbox .xl {float:right;}
+#bbslist .btnbox .xl select {height:22px;}
+#bbslist .btnbox .xl .input {width:75px;height:19px;}
+#bbslist .btnbox .xl .btnblue {height:23px;}
+#bbslist .btnbox .xr {float:right;}
+/* @list */
+
+
+/* view */
+#bbsview {margin:auto; padding:0px 10px 30px 10px;}
+#bbsview .viewbox {}
+#bbsview .viewbox .title {padding:5px 0px 5px 0px; font-weight:bold; font-size:12px; font-family:dotum;}
+#bbsview .viewbox .info {padding:0px 0px 5px 0px; text-align:right; font-size:10px; font-family:arial; color:#c0c0c0; letter-spacing:-1px; border-bottom:1px dashed #dadada;}
+#bbsview .viewbox .info .split {padding:0 5px 0 5px;color:#dfdfdf;font-size:10px;}
+#bbsview .viewbox .info .han {font-family:dotum;font-size:11px;}
+#bbsview .viewbox .info .num {font-weight:bold;font-size:12pxf;color:#222;}
+#bbsview .viewbox .content {padding:0; line-height:160%;}
+#bbsview .viewbox .content .tag {padding:10px 0 0 0;}
+#bbsview .viewbox .content .tag a {font-size:11px;font-family:dotum;color:#222;}
+#bbsview .viewbox .content .tag a:hover {text-decoration:underline;}
+#bbsview .viewbox .content .attach {padding:10px 0 0 0;line-height:120%;}
+#bbsview .viewbox .content .attach ul {padding:0;margin:0;}
+#bbsview .viewbox .content .attach li {list-style-type:none;background:url('../../../../../_core/image/_public/ico_file.gif') left no-repeat;padding:0 0 0 15px;}
+#bbsview .viewbox .content .attach li a {font-size:11px;font-family:dotum;color:#666;}
+#bbsview .viewbox .content .attach li a:hover {text-decoration:underline;}
+#bbsview .viewbox .content .attach li .size {font-size:11px;font-family:arial;color:#999;}
+#bbsview .viewbox .content .attach li .down {font-size:11px;font-family:arial;color:#333;}
+#bbsview .viewbox .content .scorebox {text-align:center;padding:20px 0 20px 0;}
+#bbsview .viewbox .content .snsbox {padding:20px 0 0 0;text-align:right;}
+#bbsview .viewbox .content .snsbox img {cursor:pointer;margin:0 0 0 7px;}
+#bbsview .viewbox .content .adddata {padding:10px 0px 10px 0px;}
+#bbsview .viewbox .content .adddata .tbl-line {border:1px solid #aaaaaa;}
+#bbsview .bottom {padding:10px 0 0 0;text-align:right;}
+#bbsview .comment {padding:10px 0 10px 0;color:#c0c0c0;}
+#bbsview .comment a {font-weight:bold;color:#3EA9CD;}
+#bbsview .comment .icon1 {position:relative;top:3px;}
+#file_list {padding:5px; margin-top:5px; border:1px solid #dddddd;}
+#file_list ul {margin:0; padding:0; list-style-type:none;}
+#file_list li {margin:3px; padding:5px; background-color:#eeeeee;font-family: dotum;}
+/* @view */
+
+
+/* write */
+#bbswrite {margin:auto;padding:0px 0px 30px 0px;}
+#bbswrite .tbl-form {}
+#bbswrite .tbl-form input[type=text],#bbswrite .tbl-form select,#bbswrite .tbl-form textarea {width:98%;}
+#bbswrite .tbl-form input[type=file] {width:98%; background-color:#dddddd;}
+#bbswrite .auth_code {width:100px;height:40px;margin-right:20px;}
+#bbswrite .agreecmb {padding:5px 0px 5px 0px;}
+#bbswrite .agreebox {margin-top:-1px; padding:6px; border:1px solid #aaaaaa; text-align:center;}
+#bbswrite .agreebox textarea {width:98%;height:80px;border:none;}
+#bbswrite .agreecheck {padding-top:5px;text-align:center;}
+#bbswrite .after {text-align:left; padding:5px;}
+#bbswrite .filedelete {margin:0; padding:0; list-style-type:none;}
+#bbswrite .filedelete li {margin-bottom:8px;}
+/*
+#bbswrite td {padding:2px 0 2px 0;}
+#bbswrite .editbox {padding:15px 0 15px 0;}
+#bbswrite .td1 {width:60px;font-weight:bold;color:#444444;vertical-align:top;padding:10px 0 0 0;letter-spacing:-1px;}
+#bbswrite .td2 {}
+#bbswrite .td2 .guide {font-size:11px;font-family:dotum;color:#999;padding:10px 0 10px 0;}
+#bbswrite .td2 .guide img {position:relative;top:3px;}
+#bbswrite .td2 .check {color:#666;}
+#bbswrite .td2 .check input {position:relative;top:2px;}
+#bbswrite .td2 .input {height:25px;}
+#bbswrite .td2 .subject {width:100%;}
+#bbswrite .td2 select {margin:1px;width:100%;height:25px;padding:2px 2px 2px 0;}
+#bbswrite .td2 select .cattt {background:#efefef;}
+#bbswrite .td2 textarea {width:100%;height:50px;border:#dfdfdf solid 1px;}
+#bbswrite .td2 img {}
+#bbswrite .td2 ul {padding:0;margin:0;}
+#bbswrite .td2 li {list-style-type:none;padding:3px 0 3px 0;}
+#bbswrite .td2 li a {color:#0000ff;text-decoration:underline;}
+#bbswrite .after {border-top:#efefef solid 1px;padding:10px 0 0 0;color:#999999;font-size:11px;font-family:dotum;letter-spacing:-1px;text-align:center;}
+#bbswrite .iconbox {border-left:#e0e0e0 solid 1px;border-top:#e0e0e0 solid 1px;border-right:#e0e0e0 solid 1px;background:#f9f9f9;padding:6px 0 8px 7px;}
+#bbswrite .iconbox a {padding:0 3px 0 3px;font-size:11px;font-family:dotum;color:#333;}
+#bbswrite .iconbox a:hover {color:#7899C7;}
+#bbswrite .iconbox a img {position:relative;top:2px;left:-2px;margin-right:3px;}
+#bbswrite .iconbox .split {padding:0 2px 0 2px;margin-bottom:-1px;}
+#bbswrite .bottombox {text-align:center;padding:20px 0 20px 0;margin:15px 0 0 0;border-top:#efefef solid 1px;}
+#bbswrite .bottombox .btngray {font-weight:bold;width:60px;height:25px;}
+#bbswrite .bottombox .btnblue {font-weight:bold;width:80px;height:25px;}
+*/
+/* @write */

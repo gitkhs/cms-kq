@@ -1,0 +1,12 @@
+.widget_search01 {border:#efefef solid 1px;}
+.widget_search01 .tab {height:26px;padding:0;margin:0;background:url('./image/bg_tab.gif');overflow:hidden;}
+.widget_search01 .tab li {float:left;width:49.5%;height:18px;list-style-type:none;padding:7px 0 0 0;margin:0;text-align:center;font-weight:bold;font-size:11px;font-family:dotum;cursor:pointer;border-bottom:#efefef solid 1px;}
+.widget_search01 .tab .split {border-right:#efefef solid 1px;}
+.widget_search01 .tab .on {background:#ffffff;color:#F15232;cursor:none;border-bottom:#ffffff solid 1px;}
+.widget_search01 .tab .on img {position:relative;top:-2px;}
+.widget_search01 .tab .hidden {visibility:hidden;}
+.widget_search01 .table {margin:0;padding:10px;position:relative;}
+.widget_search01 .table li {list-style-type:none;height:12px;padding:5px 0 5px 0;}
+.widget_search01 .table li span {position:absolute;right:10px;width:30px;height:12px;color:#888888;font-size:11px;font-family:arial;}
+.widget_search01 .table li span * {vertical-align:top;padding-top:3px;}
+.widget_search01 .term {border-top:#dfdfdf dotted 1px;padding:7px 0 7px 0;font-size:11px;font-family:dotum;color:#c0c0c0;text-align:center;}

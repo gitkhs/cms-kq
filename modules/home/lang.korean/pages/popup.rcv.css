@@ -1,0 +1,4 @@
+#paperbox {padding:10px;}
+#paperbox .dt {font-family:dotum;font-size:11px;}
+#paperbox .msg {margin-top:5px; padding:5px; border-top:1px solid #dddddd; height:175px; overflow-y:auto;}
+#paperbox .pagebox01 {margin-top:5px; text-align:center;}

@@ -1,0 +1,58 @@
+#header {}
+#header .wrap {}
+#header .logo {padding:0;margin:0; text-align:left;}
+#header .search {width:450px; border:none; text-align:right;}
+#header .search .srch-box {padding:5px 10px 5px 10px; border:2px solid #3a8861; background-color:#ffffff;}
+#header .search .srch-box .srch-kwd {float:left; width:90%; border:1px solid #ffffff;}
+#header .search .srch-box .srch-btn {float:right; font-size:1.5em; color:#3a8861;}
+
+#loginbar {background:url(../../../../files/_etc/images/rgba_fff5.png);}
+
+#topmenu {width:100%; background:url(../../../../files/_etc/images/dsk_topmenu_bar.png); background-size:contain; z-index:999999;}
+#topmenu ul {float:left; padding:0;margin:0;list-style-type:none;}
+#topmenu li {float:left; margin:0; padding:10px 35px 10px 35px;}
+#topmenu li .sub {position:absolute; left:0; margin:33px 0px 0px 0px; width:100%; display:none; z-index:999999;/* border-bottom:1px solid #dfdfdf; overflow-y:auto; overflow-x:hidden;*/}
+#topmenu li a {font-weight:bold; font-family:NanumGothic; font-size:13px; color:#ffffff; display:block; letter-spacing:-1px;}
+#topmenu .tbl-sub {width:100%; border-spacing:1px; border-collapse:collapse;}
+#topmenu .tbl-sub td {padding:2px; vertical-align:top;}
+#topmenu .tbl-sub .s-menu1 {width:150px;}
+#topmenu .tbl-sub .s-menu1 a {}
+#topmenu .tbl-sub .s-menu1 div {padding-left:30px; width:150px; overflow-x:hidden;}
+#topmenu .tbl-sub .s-menu2 dl {padding:0; margin:0; list-style-type:none;}
+#topmenu .tbl-sub .s-menu2 dl dt {float:left; padding:2px 8px 2px 8px;}
+#topmenu .tbl-sub .s-menu2 dl dt a {font-weight:normal;}
+#topmenu .tbl-sub .on {color:#333333;}
+#topmenu .sub .wrap {padding:10px 0px 10px 0px; min-height:150px;}
+#topmenu .t-box a {font-size:16px;}
+/*#topmenu .m-box.on, #topmenu .sub .s-box {background:url(../../../../files/_etc/images/dsk_topmenu_on.png); background-size:contain;}*/
+
+#topmenu .subMenuBox {position:absolute; margin-top:25px; min-width:150px; background:url(../../../../files/_etc/images/rgba_0005.png); background-size:contain; z-index:99; display:none;}
+#topmenu .subMenuBox dl {margin:0; padding:5px 5px 10px 5px;}
+#topmenu .subMenuBox dt {padding:2px 2px 5px 2px;}
+#topmenu .subMenuBox dd {margin:0px 0px 0px 5px; padding:0;}
+#topmenu .subMenuBox dd a {font-weight:normal;}
+
+#topmenu .all-box {position:absolute; padding:10px 0px 10px 0px; width:100%; background:url(../../../../files/_etc/images/dsk_topmenu_bar.png); background-size:contain; z-index:99; display:none;}
+#topmenu .all-box .tbl-none a {color:#ffffff;}
+#topmenu .all-box .tbl-none td {vertical-align:top;}
+#topmenu .all-box .tbl-none .m1 {padding:2px; font-size:14px; font-weight:bold;}
+#topmenu .all-box .tbl-none .m2 {padding:2px;}
+#topmenu .all-box .tbl-none .m3 {padding:2px 2px 2px 12px; font-size:11px;}
+#topmenu .all-box .tbl-none .on {color:#00859e;}
+
+/* side menu */
+#sidebox .sidetitle {padding:8px; text-align:center; font-weight:bold; color:#ffffff; border:2px solid #dddddd; background:url(../../../../files/_etc/images/dsk_topmenu_bar.png); background-size:contain;}
+#sidebox .sidemenu {border-right:2px solid #dddddd; border-bottom:2px solid #dddddd; border-left:2px solid #dddddd;}
+#sidebox .sidemenu ul {margin:0; padding:0; list-style-type:none;}
+#sidebox .sidemenu ul .m2 {padding:8px 5px 5px 5px; font-weight:bold; border-top:1px solid #dddddd;}
+#sidebox .sidemenu ul .m2._fst {border:none;}
+#sidebox .sidemenu ul .on, #sidebox .sidemenu ul .on a {color:#fa6800;}
+#sidebox .sidemenu ul li, #sidebox .sidemenu ul li a {color:#666666;}
+#sidebox .sidemenu ul .m3  {margin-top:5px; font-weight:normal;}
+#sidebox .sidemenu ul .m3 li  {padding:1px 0px 1px 20px;}
+#sidebox .hotbox {margin-top:10px;}
+
+#footer {border-top:#DEDEDE solid 1px;}
+#footer .wrap {padding:15px 0 20px 0; text-align:center;}
+#footer .wrap .biz-info {color:#555555;}
+#footer .wrap .copyright {padding-top:10px; font-size:11px;font-family:arial;color:#999999;}

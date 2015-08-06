@@ -1,0 +1,16 @@
+body {background:#E3E3E3;}
+#mheader {height:47px;background:url('./image/bg_header.jpg');text-align:center;}
+#mheader img {position:relative;top:8px;height:32px;}
+#mcontent {padding:30px 15px 0 15px;min-height:447px;}
+#mcontent .infobox {}
+#mcontent .infobox .title {font-weight:bold;font-size:17px;color:#666666;padding:0 0 15px 2px;}
+#mcontent .infobox .logbox {padding:0;border:#ABABAB solid 2px;border-radius:7px 7px 7px 7px;background:#ffffff;}
+#mcontent .infobox .logbox input {background:transparent;border:0;padding:15px 10px 15px 10px;margin:0;width:93%;}
+#mcontent .infobox .logbox input:focus {font-weight:bold;font-size:20px;padding:10px 0 11px 10px;width:96.7%;}
+#mcontent .infobox .logbox .line {border-bottom:#dddddd solid 1px;}
+#mcontent .infobox .agree {float:left;padding:10px 0 10px 0;color:#999999;}
+#mcontent .infobox .agree input {}
+#mcontent .infobox .submit {float:right;padding:13px 0 0 0;}
+#mcontent .infobox .submit input {text-align:center;padding:8px 16px 8px 16px;font-size:12px;color:#ffffff;text-shadow:1px #000000;background:#4A8AF4;border:#317AED solid 1px;border-radius:3px 3px 3px 3px;}
+#mcontent .mfooter {text-align:center;padding:20px 0 0 0;margin:10px auto;font-size:11px;color:#c0c0c0;border-top:#dddddd solid 1px;}
+#mcontent .mfooter a {padding-left:10px;font-size:11px;text-decoration:underline;color:#5795BE;}
