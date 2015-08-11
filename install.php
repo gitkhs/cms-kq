@@ -21,9 +21,6 @@
 ?>
 	<form name="frmWrite" method="post">
 	<input type="hidden" name="rq" value="1">
-	<div><b>설치관리자</b></div>
-	<div><label><span>아이디</span> <input type="text" name="id" value="<?=$id?>"></label></div>
-	<div><label><span>비밀번호</span> <input type="password" name="pw" value="<?=$pw?>"></label></div>
 	<div><b>DB 정보</b></div>
 	<div><label><span>HOST</span> <input type="text" name="db_host" value="<?=$db_host ? $db_host : 'localhost'?>"></label></div>
 	<div><label><span>PORT</span> <input type="text" name="db_port" value="<?=$db_port ? $db_port : '3306'?>"></label></div>
@@ -37,7 +34,6 @@
 <?php
 	include_once '_tmp/backup/db_schema.php';
 	$path	= str_replace('index.php','',$_SERVER['PHP_SELF']);
-	unlink('install.php');
 	header("location:{$path}");
 ?>
 <?php endif?>
