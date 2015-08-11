@@ -24,20 +24,22 @@
 	chmod -R 707 *
 ""1	LINE	0
 	chmod -R 707 *
+"2	LINE	0
+	chmod -R 707 *
 "-	CHAR	0
 	dummy
 
 # File marks:
-'0  4  0  ~/cleanfile.sh
-'1  1  13  ~/cleanfile.sh
-'2  3  0  ~/cleanfile.sh
+'0  3  0  ~/cleanfile.sh
+'1  4  0  ~/cleanfile.sh
+'2  1  13  ~/cleanfile.sh
 '3  1  11  ~/clean.sh
 '4  2  0  ~/clean.sh
 
 # Jumplist (newest first):
+-'  3  0  ~/cleanfile.sh
 -'  4  0  ~/cleanfile.sh
 -'  1  0  ~/cleanfile.sh
--'  3  0  ~/cleanfile.sh
 -'  1  11  ~/clean.sh
 -'  2  0  ~/clean.sh
 -'  1  11  ~/clean.sh
@@ -71,11 +73,43 @@
 -'  2  0  ~/clean.sh
 -'  1  11  ~/clean.sh
 -'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
+-'  1  11  ~/clean.sh
+-'  2  0  ~/clean.sh
 
 # History of marks within files (newest to oldest):
 
 > ~/cleanfile.sh
-	"	4	0
+	"	3	0
 	.	4	0
 	+	1	0
 	+	2	24
