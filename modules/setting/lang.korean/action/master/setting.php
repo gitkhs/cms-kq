@@ -17,6 +17,7 @@
 	fwrite($fp, "\$d['config']['site_search'] = \"".$site_search."\";\n");
 	fwrite($fp, "\$d['config']['site_theme'] = \"".$site_theme."\";\n");
 	fwrite($fp, "\$d['config']['site_theme_mobile'] = \"".$site_theme_mobile."\";\n");
+	fwrite($fp, "\$d['config']['theme_bootstrap'] = \"".$theme_bootstrap."\";\n");
 	fwrite($fp, "\$d['config']['banner_top_use'] = \"".$banner_top_use."\";\n");
 	fwrite($fp, "\$d['config']['side_position'] = \"".$side_position."\";\n");
 	fwrite($fp, "\$d['config']['side_loginbox'] = \"".$side_loginbox."\";\n");

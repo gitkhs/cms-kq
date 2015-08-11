@@ -1,0 +1,18 @@
+body {
+  padding-top: 40px;
+}
+
+#content {
+	min-height:450px;
+}
+.subject{padding:8px; background-color:#ddd; border-bottom:1px solid #999; font-weight:bold; color:#333;}
+
+#footer {
+	padding-top:15px;
+	padding-bottom:15px;
+	background-color:#d9230f;
+	color:#fff;
+}
+#footer a {
+	color:#fff;
+}

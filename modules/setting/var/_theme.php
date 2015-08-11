@@ -8,7 +8,17 @@ $d['theme_mobile_list'] = array(
 	'bootstrap' => '부트스트랩',
 );
 $d['theme_bootstrap'] = array(
-	'm001' => '모바일 01',
-	'm002' => '모바일 02',
+	'default' => 'default',
+	'cerulean' => 'cerulean',
+	'simplex' => 'simplex',
+	'lumen' => 'lumen',
+	'united' => 'united',
+	
+	'cosmo' => 'cosmo(metro)',
+	'superhero' => 'superhero(metro)',
+	'yeti' => 'yeti(metro)',
+
+	'cyborg' => 'cyborg(black)',
+	'slate' => 'slate(black)',
 );
 ?>

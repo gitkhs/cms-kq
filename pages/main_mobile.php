@@ -1,3 +1,5 @@
+<div class="subject">모바일 메인</div>
+
 <div class="container" role="main">
 	<!-- Button trigger modal -->
 	<button type="button" class="btn btn-primary btn-lg" data-toggle="modal" data-target="#myModal">Launch demo modal</button>

@@ -22,7 +22,9 @@
 				<span class="dv">|</span>
 				테마 <select name="site_theme"><? foreach($d['theme_list'] as $_key => $_val){ ?><option value="<?=$_key?>" <?if($_key == $_HS['theme']) echo 'selected="selected"';?>><?=$_val?></option><? } ?></select>
 				<span class="dv">|</span>
-				모바일 테마 <select name="site_theme_mobile"><? foreach($d['theme_mobile_list'] as $_key => $_val){ ?><option value="<?=$_key?>" <?if($_key == $d['config']['site_theme_mobile']) echo 'selected="selected"';?>><?=$_val?></option><? } ?></select>
+				모바일 테마 <select name="site_theme_mobile" onchange="$('select[name=theme_bootstrap]').attr('disabled',(this.value=='bootstrap'?false:true));"><? foreach($d['theme_mobile_list'] as $_key => $_val){ ?><option value="<?=$_key?>" <?if($_key == $d['config']['site_theme_mobile']) echo 'selected="selected"';?>><?=$_val?></option><? } ?></select>
+				<span class="dv">|</span>
+				부트스트랩 테마 <select name="theme_bootstrap" <?if($d['config']['site_theme_mobile']!='bootstrap'){?>disabled="disabled"<?}?>><? foreach($d['theme_bootstrap'] as $_key => $_val){ ?><option value="<?=$_key?>" <?if($_key == $d['config']['theme_bootstrap']) echo 'selected="selected"';?>><?=$_val?></option><? } ?></select>
 			</div>
 		</td>
 	</tr>
