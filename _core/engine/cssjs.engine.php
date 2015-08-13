@@ -51,6 +51,7 @@ var myagent	= navigator.appName.indexOf('Explorer') != -1 ? 'ie' : 'ns';
 	<link type="text/css" rel="stylesheet" charset="utf-8" href="<?php echo $g['url_layout']?>/_cross/<?=$_HS['theme']?>/theme.css<?php echo $g['wcache']?>" />
 	<link type="text/css" rel="stylesheet" charset="utf-8" href="<?php echo $g['url_layout']?>/_cross/<?=$_HS['theme']?>/theme_cus.css<?php echo $g['wcache']?>" />
 <? }else {?>
+	<link type="text/css" rel="stylesheet" charset="utf-8" href="<?php echo $g['s']?>/_core/css/metro-icons.min.css" />
 	<link type="text/css" rel="stylesheet" charset="utf-8" href="<?php echo $g['url_layout']?>/_cross/<?=$d['config']['site_theme_mobile']?>/theme.css<?php echo $g['wcache']?>" />
 	<link type="text/css" rel="stylesheet" charset="utf-8" href="<?php echo $g['url_layout']?>/_cross/<?=$d['config']['site_theme_mobile']?>/theme_cus.css<?php echo $g['wcache']?>" />
 <? } ?>

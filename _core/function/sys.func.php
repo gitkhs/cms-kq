@@ -27,6 +27,12 @@ function getPageLink($lnum,$p,$tpage,$img)
 	include_once $GLOBALS['g']['path_core'].'function/lib/page.lib.php';
 	return LIB_getPageLink($lnum,$p,$tpage,$img);
 }
+//페이징 부트스트랩
+function getBootstrapPageLink($lnum,$p,$tpage)
+{
+	include_once $GLOBALS['g']['path_core'].'function/lib/page.lib.php';
+	return LIB_getBootstrapPageLink($lnum,$p,$tpage);
+}
 //문자열끊기
 function getStrCut($long_str,$cutting_len,$cutting_str)
 {

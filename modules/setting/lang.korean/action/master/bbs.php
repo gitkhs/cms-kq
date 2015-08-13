@@ -1,10 +1,12 @@
 <?
+	$skin	= $skin ? $skin : '_pc/list01';
+	$m_skin	= $m_skin ? $m_skin : '_mobile/list01';
+
 // 게시판등록
 if($actid == 'regis'){
 	$id			= $id ? trim($id) : $bid;
 	$name		= trim($name);
 	$newtime	= $newtime ? $newtime : 24;
-	$m_skin		= str_replace('_pc','_mobile',$skin);
 
 	if (!$name) getLink('','','게시판이름을 입력해 주세요.','');
 	if (!$id) getLink('','','아이디를 입력해 주세요.','');

@@ -122,13 +122,25 @@ while($_L=db_fetch_array($LVL)) $level_list[] = $_L;
 				<td class="lbl">게시판 테마</td>
 				<td>
 					<select name="skin" class="select1" onchange="changeTheme();">
-					<option value="">&nbsp;+ 게시판 대표테마</option>
+					<option value="">&nbsp;+ PC 게시판 대표테마</option>
 					<option value="">--------------------------------</option>
 					<?php $tdir = $g['path_module'].$module.'/theme/_pc/'?>
 					<?php $dirs = opendir($tdir)?>
 					<?php while(false !== ($skin = readdir($dirs))):?>
 					<?php if($skin=='.' || $skin == '..' || is_file($tdir.$skin))continue?>
 					<option value="_pc/<?php echo $skin?>" title="<?php echo $skin?>"<?php if($d['bbs']['skin']=='_pc/'.$skin):?> selected="selected"<?php endif?>>ㆍ<?php echo getFolderName($tdir.$skin)?></option>
+					<?php endwhile?>
+					<?php closedir($dirs)?>
+					</select>
+
+					<select name="m_skin" class="select1" onchange="changeTheme();">
+					<option value="">&nbsp;+ Mobile 게시판 대표테마</option>
+					<option value="">--------------------------------</option>
+					<?php $tdir = $g['path_module'].$module.'/theme/_mobile/'?>
+					<?php $dirs = opendir($tdir)?>
+					<?php while(false !== ($m_skin = readdir($dirs))):?>
+					<?php if($m_skin=='.' || $m_skin == '..' || is_file($tdir.$m_skin))continue?>
+					<option value="_mobile/<?php echo $m_skin?>" title="<?php echo $m_skin?>"<?php if($d['bbs']['m_skin']=='_mobile/'.$m_skin):?> selected="selected"<?php endif?>>ㆍ<?php echo getFolderName($tdir.$m_skin)?></option>
 					<?php endwhile?>
 					<?php closedir($dirs)?>
 					</select>

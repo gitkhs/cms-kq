@@ -20,4 +20,38 @@ function LIB_getPageLink($lnum,$p,$tpage,$img)
 	$g_q  .= $tpage > $p ? '<a href="'.$_N.'p='.$tpage.'"><img src="'.$img.'/lp.gif" alt="마지막페이지" /></a>' : '<img src="'.$img.'/lp1.gif" alt="마지막페이지" />';
 	return $g_q;
 }
+
+function LIB_getBootstrapPageLink($lnum,$p,$tpage)
+{
+	$_N = $GLOBALS['g']['pagelink'].'&amp;';
+	$g_q	= '<nav><ul class="pagination">';
+
+	$g_q	.= $p > 1 ? '<li><a href="'.$_N.'p=1" aria-label="Previous"><span aria-hidden="true">&laquo;</span></a></li>' : '<li class="disabled"><span aria-hidden="true">&laquo;</span></li>';
+	if($p < $lnum+1) {
+		$g_q	.= '<li class="disabled"><span aria-hidden="true">&lt;</span></li>';
+	}
+	else{
+		$pp		= (int)(($p-1)/$lnum)*$lnum;
+		$g_q	.= '<li><a href="'.$_N.'p='.$pp.'"><span aria-hidden="true">&lt;</span></a></li>';
+	}
+	
+	$st1 = (int)(($p-1)/$lnum)*$lnum + 1;
+	$st2 = $st1 + $lnum;
+	for($jn = $st1; $jn < $st2; $jn++) {
+		if ( $jn <= $tpage) {
+			$g_q	.= '<li class="'.($jn==$p ? 'active' : '').'"><a href="'.$_N.'p='.$jn.'">'.$jn.'</a></li>';
+		}
+	}
+
+	if($tpage < $lnum || $tpage < $jn) {
+		$g_q	.= '<li class="disabled"><span aria-hidden="true">&gt;</span></li>';
+	}
+	else {
+		$np		= $jn;
+		$g_q	.= '<li><a href="'.$_N.'p='.$np.'"><span aria-hidden="true">&gt;</span></a></li>';
+	}
+	$g_q	.= $tpage > $p ? '<li><a href="'.$_N.'p='.$tpage.'" aria-label="Next"><span aria-hidden="true">&raquo;</span></a></li>' : '<li class="disabled"><span aria-hidden="true">&raquo;</span></li>';
+	$g_q	.= '</ul></nav>';
+	return $g_q;
+}
 ?>
